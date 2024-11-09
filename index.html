@@ -4,10 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial="width=device-width, initial-scale=1.0">
     <title>Sports Betting Odds</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="src/css/styles.css"> <!-- Link to external stylesheet -->
 </head>
 <body>
-    <h1>Sports Betting Odds</h1>
+    <h1>NFL Money Line Odds</h1>
+    <div id="navbar">
+        <select onchange = "window.location.href=this.value;">
+            <option value="index.html">Money Line</option>
+            <option value="spread.html">Spread</option>
+        </select>
+    </div>
     <table id="oddsTable">
         <thead>
             <tr>
@@ -21,6 +27,6 @@
         </tbody>
     </table>
 
-    <script src = "script.js"></script>
+    <script src = "src/js/script.js"></script>
 </body>
 </html>
