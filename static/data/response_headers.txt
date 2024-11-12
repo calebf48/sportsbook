@@ -1,0 +1,11 @@
+Response Headers:
+Date: Tue, 12 Nov 2024 17:07:20 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2553
+Connection: keep-alive
+X-Requests-Used: 16
+X-Requests-Remaining: 484
+X-Requests-Last: 1
+vary: Accept-Encoding
+content-encoding: gzip
+Apigw-Requestid: BJKzZhmuIAMES5A=

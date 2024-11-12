@@ -1,7 +1,7 @@
 // Function to fetch JSON data from a file
 async function fetchJsonData() {
     try {
-        const response = await fetch('src/data/response_h2h.json'); // Fetch the JSON file
+        const response = await fetch('static/data/response_spread.json'); // Fetch the JSON file
         if (!response.ok) {
             throw new Error('Failed to load JSON data');
         }
@@ -75,13 +75,13 @@ bookmakers.forEach(bookmaker => {
 
     if (gameBookmaker) {
         // Find the odds for both teams
-        const market = gameBookmaker.markets.find(m => m.key === 'h2h');
+        const market = gameBookmaker.markets.find(m => m.key === 'spreads');
         if (market) {
             const awayOutcome = market.outcomes.find(outcome => outcome.name === away_team);
             const homeOutcome = market.outcomes.find(outcome => outcome.name === home_team);
 
             if (awayOutcome && homeOutcome) {
-                bookmakerCell.innerHTML = `${awayOutcome.price}<br>${homeOutcome.price}`; // Set the odds
+                bookmakerCell.innerHTML = `${awayOutcome.point} ${awayOutcome.price}<br> ${homeOutcome.point} ${homeOutcome.price}`; // Set the odds
             }
         }
     }

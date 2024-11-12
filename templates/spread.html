@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial="width=device-width, initial-scale=1.0">
     <title>Sports Betting Odds</title>
-    <link rel="stylesheet" href="src/css/styles.css"> <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css')}}"> <!-- Link to external stylesheet -->
 </head>
 <body>
     <h1>NFL Spreads</h1>
     <div id="navbar">
         <select onchange = "window.location.href=this.value;">
-            <option value="spread.html">Spread</option>
-            <option value="index.html">Money Line</option>
+            <option value="{{ url_for('spread')}}">Spread</option>
+            <option value="{{ url_for('index')}}">Money Line</option>
         </select>
     </div>
     <table id="oddsTable">
@@ -27,6 +27,7 @@
         </tbody>
     </table>
 
-    <script src = "src/js/spread.js"></script>
+    <script src = "{{ url_for('static', filename='js/spread.js')}}"></script>
+    <script src = "{{ url_for('static', filename='js/refresh.js')}}"></script>
 </body>
 </html>
