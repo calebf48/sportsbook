@@ -15,6 +15,7 @@
         </select>
         <button id="refreshButton">Refresh Data</button>
         <p id="output"></p>
+        <p id="lastRefresh">Last Refreshed:</p>
     </div>
     <table id="oddsTable">
         <thead>
@@ -28,8 +29,7 @@
             <!-- Data rows will be inserted here -->
         </tbody>
     </table>
-
-    <script src = "{{ url_for('static', filename='js/h2h.js')}}"></script>
     <script src = "{{ url_for('static', filename='js/refresh.js')}}"></script>
+    <script src = "{{ url_for('static', filename='js/h2h.js')}}"></script>
 </body>
 </html>
