@@ -5,6 +5,10 @@ document.getElementById('refreshButton').addEventListener('click', async () => {
 
         if (data.success) {
             document.getElementById('output').textContent = data.output;
+
+            //Re-fetch data and refresh table and refresh date
+            await fetchJsonData();
+            await fetchLastRefreshDate();
         } else {
             document.getElementById('output').textContent = `Error: ${data.error}`;
         }
@@ -29,7 +33,22 @@ async function fetchLastRefreshDate() {
         // Check if data contains the expected "Date" field (note the capital "D")
         if (data.Date) {
             console.log('Date found:', data.Date);
+            
+            const currentPath = window.location.pathname;
+            console.log(currentPath);
+            if (currentPath == '/') {
+                const refreshElement = document.getElementById('lastRefresh');
+                refreshElement.textContent = `Last Refreshed: ${data.Date}`;
+            }
+            else if (currentPath == '/spread') {
+                const refreshElement = document.getElementById('lastRefresh');
+                refreshElement.textContent = `Last Refreshed: ${data.Date}`;
+            }
+            else {
+                console.error('Element with id "lastRefresh" not found in the DOM');
+            }
 
+            /*
             // Attempt to find the HTML element
             const refreshElement = document.getElementById('lastRefresh');
             if (refreshElement) {
@@ -37,7 +56,8 @@ async function fetchLastRefreshDate() {
                 console.log('Date displayed:', data.Date);
             } else {
                 console.error('Element with id "lastRefresh" not found in the DOM');
-            }
+            }*/
+
         } else {
             console.error('No Date field found in the response:', data);
         }

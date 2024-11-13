@@ -44,31 +44,3 @@ for market in markets:
 # Print "All data saved successfully" only if all requests were successful
 if all_data_saved:
     print('All data saved successfully')
-
-
-
-'''
-r = requests.get(url)
-
-if r.status_code == 200:
-    json_data = r.json()
-    if markets == 'h2h':
-        with open('src/data/response_h2h.json', 'w') as file:
-            #Convert JSON object to a formatted string and write to the file
-            json.dump(json_data, file, indent=4)
-    elif markets == 'spreads':
-        with open('src/data/response_spread.json', 'w') as file:
-            #Convert JSON object to a formatted string and write to the file
-            json.dump(json_data, file, indent=4)
-
-    with open('src/data/response_headers.txt', 'w') as file:
-        file.write("Response Headers:\n")
-        for key, value in r.headers.items():
-            file.write(f"{key}: {value}\n")
-
-    print("Data saved successfully")
-else:
-    print(f"Failed to retrieve data. Status code: {r.status_code}")
-'''
-
-

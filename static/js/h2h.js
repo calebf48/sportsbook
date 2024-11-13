@@ -115,13 +115,13 @@ function renderTable(data) {
     });
 }
 
-
+/* Moved to refresh.js
 // Add event listener to the refresh button to fetch and update the table
 document.getElementById('refreshButton').addEventListener('click', () => {
     fetchJsonData(); // Re-fetch data and update table
     fetchLastRefreshDate();
 });
-
+*/
 
 // Call fetchJsonData to load and display the data initially
 fetchJsonData();

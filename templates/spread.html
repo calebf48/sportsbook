@@ -13,6 +13,9 @@
             <option value="{{ url_for('spread')}}">Spread</option>
             <option value="{{ url_for('index')}}">Money Line</option>
         </select>
+        <button id="refreshButton">Refresh Data</button>
+        <p id="output"></p>
+        <p id="lastRefresh">Last Refreshed: Loading...</p>
     </div>
     <table id="oddsTable">
         <thead>
@@ -27,7 +30,7 @@
         </tbody>
     </table>
 
-    <script src = "{{ url_for('static', filename='js/spread.js')}}"></script>
     <script src = "{{ url_for('static', filename='js/refresh.js')}}"></script>
+    <script src = "{{ url_for('static', filename='js/spread.js')}}"></script>
 </body>
 </html>
