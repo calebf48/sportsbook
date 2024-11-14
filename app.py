@@ -13,6 +13,10 @@ def index():
 def spread():
     return render_template('spread.html')
 
+@app.route('/total')
+def total():
+    return render_template('total.html')
+
 #Define a route to call Python script
 @app.route('/refresh', methods=['GET'])
 def run_script():

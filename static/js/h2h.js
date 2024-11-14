@@ -6,6 +6,7 @@ async function fetchJsonData() {
             throw new Error('Failed to load JSON data');
         }
         const data = await response.json(); // Parse the JSON data
+        console.log('JSON Data:', data);
         renderTable(data); // Call renderTable function to display data
     } catch (error) {
         console.error('Error fetching or parsing JSON data:', error);
@@ -114,15 +115,6 @@ function renderTable(data) {
         tableBody.appendChild(row);
     });
 }
-
-/* Moved to refresh.js
-// Add event listener to the refresh button to fetch and update the table
-document.getElementById('refreshButton').addEventListener('click', () => {
-    fetchJsonData(); // Re-fetch data and update table
-    fetchLastRefreshDate();
-});
-*/
-
 // Call fetchJsonData to load and display the data initially
 fetchJsonData();
 

@@ -7,8 +7,10 @@ document.getElementById('refreshButton').addEventListener('click', async () => {
             document.getElementById('output').textContent = data.output;
 
             //Re-fetch data and refresh table and refresh date
-            await fetchJsonData();
             await fetchLastRefreshDate();
+            console.log('Fetched Refresh Date')
+            await fetchJsonData();
+            console.log('Fetched JSON Data')
         } else {
             document.getElementById('output').textContent = `Error: ${data.error}`;
         }
@@ -33,37 +35,51 @@ async function fetchLastRefreshDate() {
         // Check if data contains the expected "Date" field (note the capital "D")
         if (data.Date) {
             console.log('Date found:', data.Date);
+
+            //Convert date string to CST format
+            const formattedDate = converToCST(data.Date);
             
             const currentPath = window.location.pathname;
             console.log(currentPath);
             if (currentPath == '/') {
                 const refreshElement = document.getElementById('lastRefresh');
-                refreshElement.textContent = `Last Refreshed: ${data.Date}`;
+                refreshElement.textContent = `Last Refreshed: ${formattedDate}`;
             }
             else if (currentPath == '/spread') {
                 const refreshElement = document.getElementById('lastRefresh');
-                refreshElement.textContent = `Last Refreshed: ${data.Date}`;
+                refreshElement.textContent = `Last Refreshed: ${formattedDate}`;
+            }
+            else if (currentPath == '/total') {
+                const refreshElement = document.getElementById('lastRefresh');
+                refreshElement.textContent = `Last Refreshed: ${formattedDate}`;
             }
             else {
                 console.error('Element with id "lastRefresh" not found in the DOM');
             }
-
-            /*
-            // Attempt to find the HTML element
-            const refreshElement = document.getElementById('lastRefresh');
-            if (refreshElement) {
-                refreshElement.textContent = `Last Refreshed: ${data.Date}`;
-                console.log('Date displayed:', data.Date);
-            } else {
-                console.error('Element with id "lastRefresh" not found in the DOM');
-            }*/
-
-        } else {
+        } 
+        else {
             console.error('No Date field found in the response:', data);
         }
-    } catch (error) {
+    } 
+    catch (error) {
         console.error('Error fetching refresh date:', error);
     }
+}
+
+//Helper function to convert LastRefreshDate() to CST and format date
+function converToCST(dateString) {
+    const options = {
+        weekday: 'short',
+        day: '2-digit',
+        month: 'short',
+        year: 'numeric',
+        hour: 'numeric',
+        minute: '2-digit',
+        hour12: true,
+        timeZone: 'America/Chicago'
+    };
+    const date = new Date(dateString);
+    return date.toLocaleString('en-US', options);
 }
 
 

@@ -12,6 +12,7 @@
         <select onchange = "window.location.href=this.value;">
             <option value="{{ url_for('index')}}">Money Line</option>
             <option value="{{ url_for('spread')}}">Spread</option>
+            <option value="{{ url_for('total')}}">Over/Under</option>
         </select>
         <button id="refreshButton">Refresh Data</button>
         <p id="output"></p>

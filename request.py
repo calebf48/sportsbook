@@ -6,7 +6,7 @@ import json
 load_dotenv()
 
 api_key = os.getenv('API_KEY')
-markets = ['h2h', 'spreads']
+markets = ['h2h', 'spreads', 'totals']
 
 # Track success of each request individually
 all_data_saved = True
@@ -29,7 +29,12 @@ for market in markets:
             with open('static/data/response_spread.json', 'w') as file:
                 json.dump(json_data, file, indent=4)
             print('Spread data saved successfully\n')
-        
+
+        elif market =='totals':
+            with open('static/data/response_total.json', 'w') as file:
+                json.dump(json_data,file, indent=4)
+            print('Total saved successfully\n')
+            
         # Save response headers (this happens for each market)
         with open('static/data/response_headers.txt', 'w') as file:
             file.write('Response Headers:\n')
