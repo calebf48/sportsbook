@@ -4,7 +4,7 @@ import os
 
 app = Flask(__name__)
 
-#Serve HTML from templates folder
+#Serve HTML from templates folder - NFL
 @app.route('/')
 def index():
     return render_template('index.html')
@@ -16,6 +16,19 @@ def spread():
 @app.route('/total')
 def total():
     return render_template('total.html')
+
+#Serve HTML from templates folder - CFB
+@app.route('/ncaafh2h')
+def ncaafh2h():
+    return render_template('ncaafh2h.html')
+
+@app.route('/ncaafspread')
+def ncaafspread():
+    return render_template('ncaafspread.html')
+
+@app.route('/ncaaftotal')
+def ncaaftotal():
+    return render_template('ncaaftotal.html')
 
 #Define a route to call Python script
 @app.route('/refresh', methods=['GET'])

@@ -23,17 +23,17 @@ for market in markets:
         if market == 'h2h':
             with open('static/data/response_h2h.json', 'w') as file:
                 json.dump(json_data, file, indent=4)
-            print('H2H data saved successfully\n')
+            print('NFL H2H data saved successfully\n')
         
         elif market == 'spreads':
             with open('static/data/response_spread.json', 'w') as file:
                 json.dump(json_data, file, indent=4)
-            print('Spread data saved successfully\n')
+            print('NFL Spread data saved successfully\n')
 
         elif market =='totals':
             with open('static/data/response_total.json', 'w') as file:
                 json.dump(json_data,file, indent=4)
-            print('Total saved successfully\n')
+            print('NFL Total saved successfully\n')
             
         # Save response headers (this happens for each market)
         with open('static/data/response_headers.txt', 'w') as file:

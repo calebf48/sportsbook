@@ -3,12 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial="width=device-width, initial-scale=1.0">
-    <title>NFL Totals</title>
+    <title>NFL Over/Unders</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css')}}"> <!-- Link to external stylesheet -->
 </head>
 <body>
     <h1>NFL Over/Unders</h1>
     <div id="navbar">
+        <select onchange="window.location.href=this.value;">
+            <option value="{{ url_for('index')}}">NFL</option>
+            <option value="{{ url_for('ncaafh2h')}}">CFB</option>
+        </select>
         <select onchange = "window.location.href=this.value;">
             <option value="{{ url_for('total')}}">Over/Under</option>
             <option value="{{ url_for('index')}}">Money Line</option>

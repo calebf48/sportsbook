@@ -53,6 +53,18 @@ async function fetchLastRefreshDate() {
                 const refreshElement = document.getElementById('lastRefresh');
                 refreshElement.textContent = `Last Refreshed: ${formattedDate}`;
             }
+            else if (currentPath == '/ncaafh2h') {
+                const refreshElement = document.getElementById('lastRefresh');
+                refreshElement.textContent = `Last Refreshed: ${formattedDate}`;
+            }
+            else if (currentPath == '/ncaafspread') {
+                const refreshElement = document.getElementById('lastRefresh');
+                refreshElement.textContent = `Last Refreshed: ${formattedDate}`;
+            }
+            else if (currentPath == '/ncaaftotal') {
+                const refreshElement = document.getElementById('lastRefresh');
+                refreshElement.textContent = `Last Refreshed: ${formattedDate}`;
+            }
             else {
                 console.error('Element with id "lastRefresh" not found in the DOM');
             }
