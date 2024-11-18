@@ -3,38 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial="width=device-width, initial-scale=1.0>
-    <title>NFL ML Odds</title>
+    <title>Odds Finder</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css')}}"> <!-- Link to external stylesheet -->
 </head>
 <body>
-    <h1>NFL Money Line Odds</h1>
-    <div id="navbar">
+    <div>
         <select onchange="window.location.href=this.value;">
-            <option value="{{ url_for('index')}}">NFL</option>
+            <option>Sport</option>
+            <option value="{{ url_for('nflh2h')}}">NFL</option>
             <option value="{{ url_for('ncaafh2h')}}">CFB</option>
         </select>
-        <select onchange = "window.location.href=this.value;">
-            <option value="{{ url_for('index')}}">Money Line</option>
-            <option value="{{ url_for('spread')}}">Spread</option>
-            <option value="{{ url_for('total')}}">Over/Under</option>
-        </select>
-        <button id="refreshButton">Refresh Data</button>
-        <p id="output"></p>
-        <p id="lastRefresh">Last Refreshed: Loading...</p>
     </div>
-    <table id="oddsTable">
-        <thead>
-            <tr>
-                <th>Date</th>
-                <th>Team</th>
-                <!-- Bookmaker columns will be dynamically added here -->
-            </tr>
-        </thead>
-        <tbody>
-            <!-- Data rows will be inserted here -->
-        </tbody>
-    </table>
-    <script src = "{{ url_for('static', filename='js/refresh.js')}}"></script>
-    <script src = "{{ url_for('static', filename='js/h2h.js')}}"></script>
+    <h1>Odds Finder</h1>
 </body>
 </html>

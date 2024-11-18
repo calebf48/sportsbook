@@ -9,13 +9,17 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-@app.route('/spread')
-def spread():
-    return render_template('spread.html')
+@app.route('/nflh2h')
+def nflh2h():
+    return render_template('nflh2h.html')
 
-@app.route('/total')
-def total():
-    return render_template('total.html')
+@app.route('/nflspread')
+def nflspread():
+    return render_template('nflspread.html')
+
+@app.route('/nfltotal')
+def nfltotal():
+    return render_template('nfltotal.html')
 
 #Serve HTML from templates folder - CFB
 @app.route('/ncaafh2h')
@@ -30,12 +34,12 @@ def ncaafspread():
 def ncaaftotal():
     return render_template('ncaaftotal.html')
 
-#Define a route to call Python script
-@app.route('/refresh', methods=['GET'])
-def run_script():
+#Referesh NFL data
+@app.route('/refresh-nfl', methods=['GET'])
+def refresh_nfl():
     try:
         #Call script using subprocess
-        result = subprocess.run(['python', 'request.py'], capture_output=True, text=True)
+        result = subprocess.run(['python', 'request_nfl.py'], capture_output=True, text=True)
 
         #Get output of script
         output = result.stdout
@@ -44,10 +48,41 @@ def run_script():
     except Exception as e:
         return jsonify({'success': False, 'error': str(e)})
 
-@app.route('/get-refresh-date', methods=['GET'])
-def get_refresh_date():
+#Refresh NCAAF data
+@app.route('/refresh-ncaaf', methods=['GET'])
+def refresh_ncaaf():
     try:
-        file_path = os.path.join(app.root_path, 'static/data/response_headers.txt')
+        #Call script using subprocess
+        result = subprocess.run(['python', 'request_ncaaf.py'], capture_output=True, text=True)
+
+        #Get output of script
+        output = result.stdout
+
+        return jsonify({'success': True, 'output': output})
+    except Exception as e:
+        return jsonify({'success':False, 'error': str(e)})
+    
+@app.route('/get-refresh-date-nfl', methods=['GET'])
+def get_refresh_date_nfl():
+    try:
+        file_path = os.path.join(app.root_path, 'static/data/nfl/response_nflheaders.txt')
+
+        with open(file_path, 'r') as file:
+            lines = file.readlines()
+            if len(lines) > 1:
+                date_line = lines[1]
+                #Extract date from the line (assuming format "Date: <date>")
+                if "Date:" in date_line:
+                    last_refresh_date = date_line.split("Date:")[1].strip()
+                    return jsonify({"Date": last_refresh_date}), 200
+        return jsonify({"Error": "Date not found"}), 404
+    except Exception as e:
+        return jsonify({"Error": str(e)}), 500
+    
+@app.route('/get-refresh-date-ncaaf', methods=['GET'])
+def get_refresh_date_ncaaf():
+    try:
+        file_path = os.path.join(app.root_path, 'static/data/ncaaf/response_ncaafheaders.txt')
 
         with open(file_path, 'r') as file:
             lines = file.readlines()

@@ -1,7 +1,7 @@
 // Function to fetch JSON data from a file
 async function fetchJsonData() {
     try {
-        const response = await fetch('static/data/response_h2h.json'); // Fetch the JSON file
+        const response = await fetch('static/data/nfl/response_nfltotal.json'); // Fetch the JSON file
         if (!response.ok) {
             throw new Error('Failed to load JSON data');
         }
@@ -15,18 +15,18 @@ async function fetchJsonData() {
 
 // Function to format the date to mm/dd/yyyy hh:mm am/pm
 function formatDate(dateString) {
-const options = { 
-weekday: 'short', 
-year: 'numeric', 
-month: '2-digit', 
-day: '2-digit', 
-hour: '2-digit', 
-minute: '2-digit', 
-hour12: true 
-};
-
-const date = new Date(dateString);
-return date.toLocaleString('en-US', options); // Format as 'MM/DD/YYYY hh:mm AM/PM'
+    const options = { 
+    weekday: 'short', 
+    year: 'numeric', 
+    month: '2-digit', 
+    day: '2-digit', 
+    hour: '2-digit', 
+    minute: '2-digit', 
+    hour12: true 
+    };
+    
+    const date = new Date(dateString);
+    return date.toLocaleString('en-US', options); // Format as 'MM/DD/YYYY hh:mm AM/PM'
 }
 
 function renderTable(data) {
@@ -34,10 +34,10 @@ function renderTable(data) {
     const tableHeader = document.querySelector('#oddsTable thead tr');
 
     // Clear any existing data in the body and header
-    tableBody.innerHTML = '';  // Clear any existing rows in the table body
-    tableHeader.innerHTML = '';  // Remove all <th> elements
+    tableBody.innerHTML = '';  // Clear any existing rows
+    tableHeader.innerHTML = '';
 
-    // Add the "Date" and "Team" columns again
+    // Add "Date" and "Team" columns again
     const dateHeader = document.createElement('th');
     dateHeader.textContent = 'Date';
     tableHeader.appendChild(dateHeader);
@@ -93,13 +93,14 @@ function renderTable(data) {
 
             if (gameBookmaker) {
                 // Find the odds for both teams
-                const market = gameBookmaker.markets.find(m => m.key === 'h2h');
+                const market = gameBookmaker.markets.find(m => m.key === 'totals');
                 if (market) {
-                    const awayOutcome = market.outcomes.find(outcome => outcome.name === away_team);
-                    const homeOutcome = market.outcomes.find(outcome => outcome.name === home_team);
-
+                    
+                    const awayOutcome = market.outcomes.find(outcome => outcome.name === 'Over');
+                    const homeOutcome = market.outcomes.find(outcome => outcome.name === 'Under');
+                    
                     if (awayOutcome && homeOutcome) {
-                        bookmakerCell.innerHTML = `${awayOutcome.price}<br>${homeOutcome.price}`; // Set the odds
+                        bookmakerCell.innerHTML = `O/U ${awayOutcome.point} <br> ${awayOutcome.price} / ${homeOutcome.price}`; // Set the odds
                     }
                 }
             }

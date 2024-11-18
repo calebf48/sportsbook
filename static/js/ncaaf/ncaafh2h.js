@@ -1,7 +1,7 @@
 // Function to fetch JSON data from a file
 async function fetchJsonData() {
     try {
-        const response = await fetch('static/data/response_spread.json'); // Fetch the JSON file
+        const response = await fetch('static/data/ncaaf/response_ncaafh2h.json'); // Fetch the JSON file
         if (!response.ok) {
             throw new Error('Failed to load JSON data');
         }
@@ -23,10 +23,10 @@ day: '2-digit',
 hour: '2-digit', 
 minute: '2-digit', 
 hour12: true 
-    };
+};
 
-    const date = new Date(dateString);
-    return date.toLocaleString('en-US', options); // Format as 'MM/DD/YYYY hh:mm AM/PM'
+const date = new Date(dateString);
+return date.toLocaleString('en-US', options); // Format as 'MM/DD/YYYY hh:mm AM/PM'
 }
 
 function renderTable(data) {
@@ -34,10 +34,10 @@ function renderTable(data) {
     const tableHeader = document.querySelector('#oddsTable thead tr');
 
     // Clear any existing data in the body and header
-    tableBody.innerHTML = '';  // Clear any existing rows
-    tableHeader.innerHTML = '';
+    tableBody.innerHTML = '';  // Clear any existing rows in the table body
+    tableHeader.innerHTML = '';  // Remove all <th> elements
 
-    // Add "Date" and "Team" columns again
+    // Add the "Date" and "Team" columns again
     const dateHeader = document.createElement('th');
     dateHeader.textContent = 'Date';
     tableHeader.appendChild(dateHeader);
@@ -93,13 +93,13 @@ function renderTable(data) {
 
             if (gameBookmaker) {
                 // Find the odds for both teams
-                const market = gameBookmaker.markets.find(m => m.key === 'spreads');
+                const market = gameBookmaker.markets.find(m => m.key === 'h2h');
                 if (market) {
                     const awayOutcome = market.outcomes.find(outcome => outcome.name === away_team);
                     const homeOutcome = market.outcomes.find(outcome => outcome.name === home_team);
 
                     if (awayOutcome && homeOutcome) {
-                        bookmakerCell.innerHTML = `${awayOutcome.point} / ${awayOutcome.price}<br> ${homeOutcome.point} / ${homeOutcome.price}`; // Set the odds
+                        bookmakerCell.innerHTML = `${awayOutcome.price}<br>${homeOutcome.price}`; // Set the odds
                     }
                 }
             }

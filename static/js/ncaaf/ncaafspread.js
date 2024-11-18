@@ -1,7 +1,7 @@
 // Function to fetch JSON data from a file
 async function fetchJsonData() {
     try {
-        const response = await fetch('static/data/response_total.json'); // Fetch the JSON file
+        const response = await fetch('static/data/ncaaf/response_ncaafspread.json'); // Fetch the JSON file
         if (!response.ok) {
             throw new Error('Failed to load JSON data');
         }
@@ -15,16 +15,16 @@ async function fetchJsonData() {
 
 // Function to format the date to mm/dd/yyyy hh:mm am/pm
 function formatDate(dateString) {
-    const options = { 
-    weekday: 'short', 
-    year: 'numeric', 
-    month: '2-digit', 
-    day: '2-digit', 
-    hour: '2-digit', 
-    minute: '2-digit', 
-    hour12: true 
+const options = { 
+weekday: 'short', 
+year: 'numeric', 
+month: '2-digit', 
+day: '2-digit', 
+hour: '2-digit', 
+minute: '2-digit', 
+hour12: true 
     };
-    
+
     const date = new Date(dateString);
     return date.toLocaleString('en-US', options); // Format as 'MM/DD/YYYY hh:mm AM/PM'
 }
@@ -93,14 +93,13 @@ function renderTable(data) {
 
             if (gameBookmaker) {
                 // Find the odds for both teams
-                const market = gameBookmaker.markets.find(m => m.key === 'totals');
+                const market = gameBookmaker.markets.find(m => m.key === 'spreads');
                 if (market) {
-                    
-                    const awayOutcome = market.outcomes.find(outcome => outcome.name === 'Over');
-                    const homeOutcome = market.outcomes.find(outcome => outcome.name === 'Under');
-                    
+                    const awayOutcome = market.outcomes.find(outcome => outcome.name === away_team);
+                    const homeOutcome = market.outcomes.find(outcome => outcome.name === home_team);
+
                     if (awayOutcome && homeOutcome) {
-                        bookmakerCell.innerHTML = `O/U ${awayOutcome.point} <br> ${awayOutcome.price} / ${homeOutcome.price}`; // Set the odds
+                        bookmakerCell.innerHTML = `${awayOutcome.point} / ${awayOutcome.price}<br> ${homeOutcome.point} / ${homeOutcome.price}`; // Set the odds
                     }
                 }
             }

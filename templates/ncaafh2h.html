@@ -11,7 +11,7 @@
     <div id="navbar">
         <select onchange="window.location.href=this.value;">
             <option value="{{ url_for('ncaafh2h')}}">CFB</option>
-            <option value="{{ url_for('index')}}">NFL</option>
+            <option value="{{ url_for('nflh2h')}}">NFL</option>
         </select>
         <select onchange = "window.location.href=this.value;">
             <option value="{{ url_for('ncaafh2h')}}">Money Line</option>
@@ -35,6 +35,6 @@
         </tbody>
     </table>
     <script src = "{{ url_for('static', filename='js/refresh.js')}}"></script>
-    <script src = "{{ url_for('static', filename='js/ncaafh2h.js')}}"></script>
+    <script src = "{{ url_for('static', filename='js/ncaaf/ncaafh2h.js')}}"></script>
 </body>
 </html>

@@ -1,0 +1,1979 @@
+[
+    {
+        "id": "a2b3fd60eede2230285512b8c3b4eed3",
+        "sport_key": "americanfootball_nfl",
+        "sport_title": "NFL",
+        "commence_time": "2024-11-18T01:22:00Z",
+        "home_team": "Los Angeles Chargers",
+        "away_team": "Cincinnati Bengals",
+        "bookmakers": [
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2024-11-18T01:21:34Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:34Z",
+                        "outcomes": [
+                            {
+                                "name": "Cincinnati Bengals",
+                                "price": -110
+                            },
+                            {
+                                "name": "Los Angeles Chargers",
+                                "price": -110
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "williamhill_us",
+                "title": "Caesars",
+                "last_update": "2024-11-18T01:21:40Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:40Z",
+                        "outcomes": [
+                            {
+                                "name": "Cincinnati Bengals",
+                                "price": 105
+                            },
+                            {
+                                "name": "Los Angeles Chargers",
+                                "price": -125
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betus",
+                "title": "BetUS",
+                "last_update": "2024-11-18T01:21:34Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:34Z",
+                        "outcomes": [
+                            {
+                                "name": "Cincinnati Bengals",
+                                "price": 100
+                            },
+                            {
+                                "name": "Los Angeles Chargers",
+                                "price": -120
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-11-18T01:21:29Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:29Z",
+                        "outcomes": [
+                            {
+                                "name": "Cincinnati Bengals",
+                                "price": 102
+                            },
+                            {
+                                "name": "Los Angeles Chargers",
+                                "price": -118
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2024-11-18T01:20:45Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:20:45Z",
+                        "outcomes": [
+                            {
+                                "name": "Cincinnati Bengals",
+                                "price": -110
+                            },
+                            {
+                                "name": "Los Angeles Chargers",
+                                "price": -112
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "lowvig",
+                "title": "LowVig.ag",
+                "last_update": "2024-11-18T01:21:44Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:44Z",
+                        "outcomes": [
+                            {
+                                "name": "Cincinnati Bengals",
+                                "price": -102
+                            },
+                            {
+                                "name": "Los Angeles Chargers",
+                                "price": -118
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betonlineag",
+                "title": "BetOnline.ag",
+                "last_update": "2024-11-18T01:21:37Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:37Z",
+                        "outcomes": [
+                            {
+                                "name": "Cincinnati Bengals",
+                                "price": -102
+                            },
+                            {
+                                "name": "Los Angeles Chargers",
+                                "price": -118
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "last_update": "2024-11-18T01:21:52Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:52Z",
+                        "outcomes": [
+                            {
+                                "name": "Cincinnati Bengals",
+                                "price": 105
+                            },
+                            {
+                                "name": "Los Angeles Chargers",
+                                "price": -125
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2024-11-18T01:21:35Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:35Z",
+                        "outcomes": [
+                            {
+                                "name": "Cincinnati Bengals",
+                                "price": -106
+                            },
+                            {
+                                "name": "Los Angeles Chargers",
+                                "price": -115
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "bovada",
+                "title": "Bovada",
+                "last_update": "2024-11-18T01:21:41Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:41Z",
+                        "outcomes": [
+                            {
+                                "name": "Cincinnati Bengals",
+                                "price": 100
+                            },
+                            {
+                                "name": "Los Angeles Chargers",
+                                "price": -120
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "81c2170ca58c6a837e5c0f1528e8513c",
+        "sport_key": "americanfootball_nfl",
+        "sport_title": "NFL",
+        "commence_time": "2024-11-19T01:15:00Z",
+        "home_team": "Dallas Cowboys",
+        "away_team": "Houston Texans",
+        "bookmakers": [
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2024-11-18T01:21:34Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:34Z",
+                        "outcomes": [
+                            {
+                                "name": "Dallas Cowboys",
+                                "price": 260
+                            },
+                            {
+                                "name": "Houston Texans",
+                                "price": -325
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "williamhill_us",
+                "title": "Caesars",
+                "last_update": "2024-11-18T01:21:40Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:40Z",
+                        "outcomes": [
+                            {
+                                "name": "Dallas Cowboys",
+                                "price": 300
+                            },
+                            {
+                                "name": "Houston Texans",
+                                "price": -385
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-11-18T01:21:29Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:29Z",
+                        "outcomes": [
+                            {
+                                "name": "Dallas Cowboys",
+                                "price": 300
+                            },
+                            {
+                                "name": "Houston Texans",
+                                "price": -375
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2024-11-18T01:20:45Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:20:45Z",
+                        "outcomes": [
+                            {
+                                "name": "Dallas Cowboys",
+                                "price": 280
+                            },
+                            {
+                                "name": "Houston Texans",
+                                "price": -370
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "lowvig",
+                "title": "LowVig.ag",
+                "last_update": "2024-11-18T01:21:44Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:44Z",
+                        "outcomes": [
+                            {
+                                "name": "Dallas Cowboys",
+                                "price": 290
+                            },
+                            {
+                                "name": "Houston Texans",
+                                "price": -360
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betonlineag",
+                "title": "BetOnline.ag",
+                "last_update": "2024-11-18T01:21:37Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:37Z",
+                        "outcomes": [
+                            {
+                                "name": "Dallas Cowboys",
+                                "price": 290
+                            },
+                            {
+                                "name": "Houston Texans",
+                                "price": -360
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2024-11-18T01:21:35Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:35Z",
+                        "outcomes": [
+                            {
+                                "name": "Dallas Cowboys",
+                                "price": 280
+                            },
+                            {
+                                "name": "Houston Texans",
+                                "price": -375
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betus",
+                "title": "BetUS",
+                "last_update": "2024-11-18T01:21:34Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:34Z",
+                        "outcomes": [
+                            {
+                                "name": "Dallas Cowboys",
+                                "price": 290
+                            },
+                            {
+                                "name": "Houston Texans",
+                                "price": -360
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "last_update": "2024-11-18T01:21:52Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:52Z",
+                        "outcomes": [
+                            {
+                                "name": "Dallas Cowboys",
+                                "price": 280
+                            },
+                            {
+                                "name": "Houston Texans",
+                                "price": -350
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "bovada",
+                "title": "Bovada",
+                "last_update": "2024-11-18T01:21:41Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:41Z",
+                        "outcomes": [
+                            {
+                                "name": "Dallas Cowboys",
+                                "price": 270
+                            },
+                            {
+                                "name": "Houston Texans",
+                                "price": -340
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "3544bdfabe61cc6d4389984a5ca83955",
+        "sport_key": "americanfootball_nfl",
+        "sport_title": "NFL",
+        "commence_time": "2024-11-22T01:15:00Z",
+        "home_team": "Cleveland Browns",
+        "away_team": "Pittsburgh Steelers",
+        "bookmakers": [
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2024-11-18T01:21:34Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:34Z",
+                        "outcomes": [
+                            {
+                                "name": "Cleveland Browns",
+                                "price": 195
+                            },
+                            {
+                                "name": "Pittsburgh Steelers",
+                                "price": -238
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "williamhill_us",
+                "title": "Caesars",
+                "last_update": "2024-11-18T01:21:40Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:40Z",
+                        "outcomes": [
+                            {
+                                "name": "Cleveland Browns",
+                                "price": 192
+                            },
+                            {
+                                "name": "Pittsburgh Steelers",
+                                "price": -235
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-11-18T01:21:29Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:29Z",
+                        "outcomes": [
+                            {
+                                "name": "Cleveland Browns",
+                                "price": 184
+                            },
+                            {
+                                "name": "Pittsburgh Steelers",
+                                "price": -220
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2024-11-18T01:20:45Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:20:45Z",
+                        "outcomes": [
+                            {
+                                "name": "Cleveland Browns",
+                                "price": 187
+                            },
+                            {
+                                "name": "Pittsburgh Steelers",
+                                "price": -236
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2024-11-18T01:21:35Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:35Z",
+                        "outcomes": [
+                            {
+                                "name": "Cleveland Browns",
+                                "price": 190
+                            },
+                            {
+                                "name": "Pittsburgh Steelers",
+                                "price": -235
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "last_update": "2024-11-18T01:21:52Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:52Z",
+                        "outcomes": [
+                            {
+                                "name": "Cleveland Browns",
+                                "price": 200
+                            },
+                            {
+                                "name": "Pittsburgh Steelers",
+                                "price": -250
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "2c895731f7e3bd3effe4e87779fbdcc2",
+        "sport_key": "americanfootball_nfl",
+        "sport_title": "NFL",
+        "commence_time": "2024-11-24T18:00:00Z",
+        "home_team": "Carolina Panthers",
+        "away_team": "Kansas City Chiefs",
+        "bookmakers": [
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2024-11-18T01:21:34Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:34Z",
+                        "outcomes": [
+                            {
+                                "name": "Carolina Panthers",
+                                "price": 500
+                            },
+                            {
+                                "name": "Kansas City Chiefs",
+                                "price": -700
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "williamhill_us",
+                "title": "Caesars",
+                "last_update": "2024-11-18T01:21:40Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:40Z",
+                        "outcomes": [
+                            {
+                                "name": "Carolina Panthers",
+                                "price": 500
+                            },
+                            {
+                                "name": "Kansas City Chiefs",
+                                "price": -700
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-11-18T01:21:29Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:29Z",
+                        "outcomes": [
+                            {
+                                "name": "Carolina Panthers",
+                                "price": 500
+                            },
+                            {
+                                "name": "Kansas City Chiefs",
+                                "price": -700
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2024-11-18T01:21:35Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:35Z",
+                        "outcomes": [
+                            {
+                                "name": "Carolina Panthers",
+                                "price": 500
+                            },
+                            {
+                                "name": "Kansas City Chiefs",
+                                "price": -715
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "last_update": "2024-11-18T01:21:52Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:52Z",
+                        "outcomes": [
+                            {
+                                "name": "Carolina Panthers",
+                                "price": 500
+                            },
+                            {
+                                "name": "Kansas City Chiefs",
+                                "price": -700
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "bc6d508d57f822879df4dbc3c4465226",
+        "sport_key": "americanfootball_nfl",
+        "sport_title": "NFL",
+        "commence_time": "2024-11-24T18:00:00Z",
+        "home_team": "Chicago Bears",
+        "away_team": "Minnesota Vikings",
+        "bookmakers": [
+            {
+                "key": "williamhill_us",
+                "title": "Caesars",
+                "last_update": "2024-11-18T01:21:40Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:40Z",
+                        "outcomes": [
+                            {
+                                "name": "Chicago Bears",
+                                "price": 162
+                            },
+                            {
+                                "name": "Minnesota Vikings",
+                                "price": -195
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-11-18T01:21:29Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:29Z",
+                        "outcomes": [
+                            {
+                                "name": "Chicago Bears",
+                                "price": 160
+                            },
+                            {
+                                "name": "Minnesota Vikings",
+                                "price": -190
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2024-11-18T01:20:45Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:20:45Z",
+                        "outcomes": [
+                            {
+                                "name": "Chicago Bears",
+                                "price": 165
+                            },
+                            {
+                                "name": "Minnesota Vikings",
+                                "price": -204
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2024-11-18T01:21:35Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:35Z",
+                        "outcomes": [
+                            {
+                                "name": "Chicago Bears",
+                                "price": 165
+                            },
+                            {
+                                "name": "Minnesota Vikings",
+                                "price": -200
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "last_update": "2024-11-18T01:21:52Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:52Z",
+                        "outcomes": [
+                            {
+                                "name": "Chicago Bears",
+                                "price": 165
+                            },
+                            {
+                                "name": "Minnesota Vikings",
+                                "price": -200
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "3c833a498591fa8934c84aa7f3215b7f",
+        "sport_key": "americanfootball_nfl",
+        "sport_title": "NFL",
+        "commence_time": "2024-11-24T18:00:00Z",
+        "home_team": "Washington Commanders",
+        "away_team": "Dallas Cowboys",
+        "bookmakers": [
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2024-11-18T01:21:34Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:34Z",
+                        "outcomes": [
+                            {
+                                "name": "Dallas Cowboys",
+                                "price": 350
+                            },
+                            {
+                                "name": "Washington Commanders",
+                                "price": -455
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "williamhill_us",
+                "title": "Caesars",
+                "last_update": "2024-11-18T01:21:40Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:40Z",
+                        "outcomes": [
+                            {
+                                "name": "Dallas Cowboys",
+                                "price": 360
+                            },
+                            {
+                                "name": "Washington Commanders",
+                                "price": -480
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-11-18T01:21:29Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:29Z",
+                        "outcomes": [
+                            {
+                                "name": "Dallas Cowboys",
+                                "price": 400
+                            },
+                            {
+                                "name": "Washington Commanders",
+                                "price": -520
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2024-11-18T01:20:45Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:20:45Z",
+                        "outcomes": [
+                            {
+                                "name": "Dallas Cowboys",
+                                "price": 350
+                            },
+                            {
+                                "name": "Washington Commanders",
+                                "price": -481
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "last_update": "2024-11-18T01:21:52Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:52Z",
+                        "outcomes": [
+                            {
+                                "name": "Dallas Cowboys",
+                                "price": 350
+                            },
+                            {
+                                "name": "Washington Commanders",
+                                "price": -450
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2024-11-18T01:21:35Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:35Z",
+                        "outcomes": [
+                            {
+                                "name": "Dallas Cowboys",
+                                "price": 400
+                            },
+                            {
+                                "name": "Washington Commanders",
+                                "price": -560
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "2f2541411e68f807dc47d527f5dd4cba",
+        "sport_key": "americanfootball_nfl",
+        "sport_title": "NFL",
+        "commence_time": "2024-11-24T18:00:00Z",
+        "home_team": "Indianapolis Colts",
+        "away_team": "Detroit Lions",
+        "bookmakers": [
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2024-11-18T01:21:34Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:34Z",
+                        "outcomes": [
+                            {
+                                "name": "Detroit Lions",
+                                "price": -380
+                            },
+                            {
+                                "name": "Indianapolis Colts",
+                                "price": 300
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "williamhill_us",
+                "title": "Caesars",
+                "last_update": "2024-11-18T01:21:40Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:40Z",
+                        "outcomes": [
+                            {
+                                "name": "Detroit Lions",
+                                "price": -385
+                            },
+                            {
+                                "name": "Indianapolis Colts",
+                                "price": 300
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-11-18T01:21:29Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:29Z",
+                        "outcomes": [
+                            {
+                                "name": "Detroit Lions",
+                                "price": -390
+                            },
+                            {
+                                "name": "Indianapolis Colts",
+                                "price": 310
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2024-11-18T01:20:45Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:20:45Z",
+                        "outcomes": [
+                            {
+                                "name": "Detroit Lions",
+                                "price": -391
+                            },
+                            {
+                                "name": "Indianapolis Colts",
+                                "price": 295
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2024-11-18T01:21:35Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:35Z",
+                        "outcomes": [
+                            {
+                                "name": "Detroit Lions",
+                                "price": -385
+                            },
+                            {
+                                "name": "Indianapolis Colts",
+                                "price": 300
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "last_update": "2024-11-18T01:21:52Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:52Z",
+                        "outcomes": [
+                            {
+                                "name": "Detroit Lions",
+                                "price": -375
+                            },
+                            {
+                                "name": "Indianapolis Colts",
+                                "price": 300
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "56f4bfb8e21ec6003f31a080be045fc3",
+        "sport_key": "americanfootball_nfl",
+        "sport_title": "NFL",
+        "commence_time": "2024-11-24T18:00:00Z",
+        "home_team": "Houston Texans",
+        "away_team": "Tennessee Titans",
+        "bookmakers": [
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2024-11-18T01:21:34Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:34Z",
+                        "outcomes": [
+                            {
+                                "name": "Houston Texans",
+                                "price": -375
+                            },
+                            {
+                                "name": "Tennessee Titans",
+                                "price": 295
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "williamhill_us",
+                "title": "Caesars",
+                "last_update": "2024-11-18T01:21:40Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:40Z",
+                        "outcomes": [
+                            {
+                                "name": "Houston Texans",
+                                "price": -385
+                            },
+                            {
+                                "name": "Tennessee Titans",
+                                "price": 300
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-11-18T01:21:29Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:29Z",
+                        "outcomes": [
+                            {
+                                "name": "Houston Texans",
+                                "price": -450
+                            },
+                            {
+                                "name": "Tennessee Titans",
+                                "price": 350
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2024-11-18T01:20:45Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:20:45Z",
+                        "outcomes": [
+                            {
+                                "name": "Houston Texans",
+                                "price": -441
+                            },
+                            {
+                                "name": "Tennessee Titans",
+                                "price": 320
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2024-11-18T01:21:35Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:35Z",
+                        "outcomes": [
+                            {
+                                "name": "Houston Texans",
+                                "price": -420
+                            },
+                            {
+                                "name": "Tennessee Titans",
+                                "price": 320
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "last_update": "2024-11-18T01:21:52Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:52Z",
+                        "outcomes": [
+                            {
+                                "name": "Houston Texans",
+                                "price": -450
+                            },
+                            {
+                                "name": "Tennessee Titans",
+                                "price": 350
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "366a8618003ac848eac5144aebbeace4",
+        "sport_key": "americanfootball_nfl",
+        "sport_title": "NFL",
+        "commence_time": "2024-11-24T18:00:00Z",
+        "home_team": "Miami Dolphins",
+        "away_team": "New England Patriots",
+        "bookmakers": [
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2024-11-18T01:21:34Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:34Z",
+                        "outcomes": [
+                            {
+                                "name": "Miami Dolphins",
+                                "price": -395
+                            },
+                            {
+                                "name": "New England Patriots",
+                                "price": 310
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "williamhill_us",
+                "title": "Caesars",
+                "last_update": "2024-11-18T01:21:40Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:40Z",
+                        "outcomes": [
+                            {
+                                "name": "Miami Dolphins",
+                                "price": -400
+                            },
+                            {
+                                "name": "New England Patriots",
+                                "price": 310
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-11-18T01:21:29Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:29Z",
+                        "outcomes": [
+                            {
+                                "name": "Miami Dolphins",
+                                "price": -375
+                            },
+                            {
+                                "name": "New England Patriots",
+                                "price": 300
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2024-11-18T01:20:45Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:20:45Z",
+                        "outcomes": [
+                            {
+                                "name": "Miami Dolphins",
+                                "price": -380
+                            },
+                            {
+                                "name": "New England Patriots",
+                                "price": 285
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2024-11-18T01:21:35Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:35Z",
+                        "outcomes": [
+                            {
+                                "name": "Miami Dolphins",
+                                "price": -385
+                            },
+                            {
+                                "name": "New England Patriots",
+                                "price": 300
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "last_update": "2024-11-18T01:21:52Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:52Z",
+                        "outcomes": [
+                            {
+                                "name": "Miami Dolphins",
+                                "price": -375
+                            },
+                            {
+                                "name": "New England Patriots",
+                                "price": 300
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "28c6ab7cb99a26666b9c7d649bbd46f3",
+        "sport_key": "americanfootball_nfl",
+        "sport_title": "NFL",
+        "commence_time": "2024-11-24T18:00:00Z",
+        "home_team": "New York Giants",
+        "away_team": "Tampa Bay Buccaneers",
+        "bookmakers": [
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2024-11-18T01:21:34Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:34Z",
+                        "outcomes": [
+                            {
+                                "name": "New York Giants",
+                                "price": 154
+                            },
+                            {
+                                "name": "Tampa Bay Buccaneers",
+                                "price": -185
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "williamhill_us",
+                "title": "Caesars",
+                "last_update": "2024-11-18T01:21:40Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:40Z",
+                        "outcomes": [
+                            {
+                                "name": "New York Giants",
+                                "price": 150
+                            },
+                            {
+                                "name": "Tampa Bay Buccaneers",
+                                "price": -178
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-11-18T01:21:29Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:29Z",
+                        "outcomes": [
+                            {
+                                "name": "New York Giants",
+                                "price": 148
+                            },
+                            {
+                                "name": "Tampa Bay Buccaneers",
+                                "price": -176
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2024-11-18T01:21:35Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:35Z",
+                        "outcomes": [
+                            {
+                                "name": "New York Giants",
+                                "price": 150
+                            },
+                            {
+                                "name": "Tampa Bay Buccaneers",
+                                "price": -182
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "last_update": "2024-11-18T01:21:52Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:52Z",
+                        "outcomes": [
+                            {
+                                "name": "New York Giants",
+                                "price": 150
+                            },
+                            {
+                                "name": "Tampa Bay Buccaneers",
+                                "price": -185
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "19d5cf9ece71b4671440a3b9e03942c4",
+        "sport_key": "americanfootball_nfl",
+        "sport_title": "NFL",
+        "commence_time": "2024-11-24T21:05:00Z",
+        "home_team": "Las Vegas Raiders",
+        "away_team": "Denver Broncos",
+        "bookmakers": [
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2024-11-18T01:21:34Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:34Z",
+                        "outcomes": [
+                            {
+                                "name": "Denver Broncos",
+                                "price": -218
+                            },
+                            {
+                                "name": "Las Vegas Raiders",
+                                "price": 180
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "williamhill_us",
+                "title": "Caesars",
+                "last_update": "2024-11-18T01:21:40Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:40Z",
+                        "outcomes": [
+                            {
+                                "name": "Denver Broncos",
+                                "price": -220
+                            },
+                            {
+                                "name": "Las Vegas Raiders",
+                                "price": 180
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-11-18T01:21:29Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:29Z",
+                        "outcomes": [
+                            {
+                                "name": "Denver Broncos",
+                                "price": -205
+                            },
+                            {
+                                "name": "Las Vegas Raiders",
+                                "price": 172
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2024-11-18T01:21:35Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:35Z",
+                        "outcomes": [
+                            {
+                                "name": "Denver Broncos",
+                                "price": -220
+                            },
+                            {
+                                "name": "Las Vegas Raiders",
+                                "price": 175
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "last_update": "2024-11-18T01:21:52Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:52Z",
+                        "outcomes": [
+                            {
+                                "name": "Denver Broncos",
+                                "price": -225
+                            },
+                            {
+                                "name": "Las Vegas Raiders",
+                                "price": 180
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "d9a2e1ead2367a3b0f46d247ed5b2906",
+        "sport_key": "americanfootball_nfl",
+        "sport_title": "NFL",
+        "commence_time": "2024-11-24T21:25:00Z",
+        "home_team": "Seattle Seahawks",
+        "away_team": "Arizona Cardinals",
+        "bookmakers": [
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2024-11-18T01:21:34Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:34Z",
+                        "outcomes": [
+                            {
+                                "name": "Arizona Cardinals",
+                                "price": -105
+                            },
+                            {
+                                "name": "Seattle Seahawks",
+                                "price": -115
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "williamhill_us",
+                "title": "Caesars",
+                "last_update": "2024-11-18T01:21:40Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:40Z",
+                        "outcomes": [
+                            {
+                                "name": "Arizona Cardinals",
+                                "price": 100
+                            },
+                            {
+                                "name": "Seattle Seahawks",
+                                "price": -120
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-11-18T01:21:29Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:29Z",
+                        "outcomes": [
+                            {
+                                "name": "Arizona Cardinals",
+                                "price": 100
+                            },
+                            {
+                                "name": "Seattle Seahawks",
+                                "price": -118
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2024-11-18T01:21:35Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:35Z",
+                        "outcomes": [
+                            {
+                                "name": "Arizona Cardinals",
+                                "price": -105
+                            },
+                            {
+                                "name": "Seattle Seahawks",
+                                "price": -115
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "last_update": "2024-11-18T01:21:52Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:52Z",
+                        "outcomes": [
+                            {
+                                "name": "Arizona Cardinals",
+                                "price": -105
+                            },
+                            {
+                                "name": "Seattle Seahawks",
+                                "price": -115
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "b26e961510947a770532c902ceb27e75",
+        "sport_key": "americanfootball_nfl",
+        "sport_title": "NFL",
+        "commence_time": "2024-11-24T21:25:00Z",
+        "home_team": "Green Bay Packers",
+        "away_team": "San Francisco 49ers",
+        "bookmakers": [
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2024-11-18T01:21:34Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:34Z",
+                        "outcomes": [
+                            {
+                                "name": "Green Bay Packers",
+                                "price": -118
+                            },
+                            {
+                                "name": "San Francisco 49ers",
+                                "price": -102
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "williamhill_us",
+                "title": "Caesars",
+                "last_update": "2024-11-18T01:21:40Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:40Z",
+                        "outcomes": [
+                            {
+                                "name": "Green Bay Packers",
+                                "price": -120
+                            },
+                            {
+                                "name": "San Francisco 49ers",
+                                "price": 100
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-11-18T01:21:29Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:29Z",
+                        "outcomes": [
+                            {
+                                "name": "Green Bay Packers",
+                                "price": -116
+                            },
+                            {
+                                "name": "San Francisco 49ers",
+                                "price": -102
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2024-11-18T01:21:35Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:35Z",
+                        "outcomes": [
+                            {
+                                "name": "Green Bay Packers",
+                                "price": -118
+                            },
+                            {
+                                "name": "San Francisco 49ers",
+                                "price": -103
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "last_update": "2024-11-18T01:21:52Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:52Z",
+                        "outcomes": [
+                            {
+                                "name": "Green Bay Packers",
+                                "price": -120
+                            },
+                            {
+                                "name": "San Francisco 49ers",
+                                "price": 100
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "40c0ee76eb698fbd5d42139045c27c3e",
+        "sport_key": "americanfootball_nfl",
+        "sport_title": "NFL",
+        "commence_time": "2024-11-25T01:20:00Z",
+        "home_team": "Los Angeles Rams",
+        "away_team": "Philadelphia Eagles",
+        "bookmakers": [
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2024-11-18T01:21:34Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:34Z",
+                        "outcomes": [
+                            {
+                                "name": "Los Angeles Rams",
+                                "price": 130
+                            },
+                            {
+                                "name": "Philadelphia Eagles",
+                                "price": -155
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "williamhill_us",
+                "title": "Caesars",
+                "last_update": "2024-11-18T01:21:40Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:40Z",
+                        "outcomes": [
+                            {
+                                "name": "Los Angeles Rams",
+                                "price": 130
+                            },
+                            {
+                                "name": "Philadelphia Eagles",
+                                "price": -155
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-11-18T01:21:29Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:29Z",
+                        "outcomes": [
+                            {
+                                "name": "Los Angeles Rams",
+                                "price": 134
+                            },
+                            {
+                                "name": "Philadelphia Eagles",
+                                "price": -158
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "last_update": "2024-11-18T01:21:52Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:52Z",
+                        "outcomes": [
+                            {
+                                "name": "Los Angeles Rams",
+                                "price": 130
+                            },
+                            {
+                                "name": "Philadelphia Eagles",
+                                "price": -160
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2024-11-18T01:21:35Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:35Z",
+                        "outcomes": [
+                            {
+                                "name": "Los Angeles Rams",
+                                "price": 132
+                            },
+                            {
+                                "name": "Philadelphia Eagles",
+                                "price": -159
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "887b10368f0b3f33a8c47e955736da89",
+        "sport_key": "americanfootball_nfl",
+        "sport_title": "NFL",
+        "commence_time": "2024-11-26T01:16:00Z",
+        "home_team": "Los Angeles Chargers",
+        "away_team": "Baltimore Ravens",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-11-18T01:21:29Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:21:29Z",
+                        "outcomes": [
+                            {
+                                "name": "Baltimore Ravens",
+                                "price": -172
+                            },
+                            {
+                                "name": "Los Angeles Chargers",
+                                "price": 144
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "last_update": "2024-11-18T01:19:30Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-11-18T01:19:30Z",
+                        "outcomes": [
+                            {
+                                "name": "Baltimore Ravens",
+                                "price": -160
+                            },
+                            {
+                                "name": "Los Angeles Chargers",
+                                "price": 135
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

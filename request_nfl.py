@@ -13,7 +13,7 @@ all_data_saved = True
 
 for market in markets:
     # Update the URL by replacing the market part dynamically
-    url = f'https://api.the-odds-api.com/v4/sports/americanfootball_ncaaf/odds?apiKey={api_key}&regions=us&oddsFormat=american&markets={market}'
+    url = f'https://api.the-odds-api.com/v4/sports/americanfootball_nfl/odds?apiKey={api_key}&regions=us&oddsFormat=american&markets={market}'
     
     r = requests.get(url)
     if r.status_code == 200:
@@ -21,22 +21,22 @@ for market in markets:
 
         # Save the data based on the current market
         if market == 'h2h':
-            with open('static/data/ncaaf/response_ncaafh2h.json', 'w') as file:
+            with open('static/data/nfl/response_nflh2h.json', 'w') as file:
                 json.dump(json_data, file, indent=4)
-            print('NCAAF H2H data saved successfully\n')
+            print('NFL H2H data saved successfully\n')
         
         elif market == 'spreads':
-            with open('static/data/ncaaf/response_ncaafspread.json', 'w') as file:
+            with open('static/data/nfl/response_nflspread.json', 'w') as file:
                 json.dump(json_data, file, indent=4)
-            print('NCAAF Spread data saved successfully\n')
+            print('NFL Spread data saved successfully\n')
 
         elif market =='totals':
-            with open('static/data/ncaaf/response_ncaaftotal.json', 'w') as file:
+            with open('static/data/nfl/response_nfltotal.json', 'w') as file:
                 json.dump(json_data,file, indent=4)
-            print('NCAAF Total saved successfully\n')
+            print('NFL Total saved successfully\n')
             
         # Save response headers (this happens for each market)
-        with open('static/data/ncaaf/response_ncaafheaders.txt', 'w') as file:
+        with open('static/data/nfl/response_nflheaders.txt', 'w') as file:
             file.write('Response Headers:\n')
             for key, value in r.headers.items():
                 file.write(f'{key}: {value}\n')

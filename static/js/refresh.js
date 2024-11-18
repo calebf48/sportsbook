@@ -1,6 +1,14 @@
 document.getElementById('refreshButton').addEventListener('click', async () => {
     try {
-        const response = await fetch('http://localhost:5000/refresh');
+        let route;
+
+        if (window.location.pathname.includes('nfl')) {
+            route = 'refresh-nfl';
+        }
+        else if (window.location.pathname.includes('ncaaf')) {
+            route = 'refresh-ncaaf';
+        }
+        const response = await fetch(`http://localhost:5000/${route}`);
         const data = await response.json();
 
         if (data.success) {
@@ -22,7 +30,15 @@ document.getElementById('refreshButton').addEventListener('click', async () => {
 async function fetchLastRefreshDate() {
     console.log('Fetching refresh date...');
     try {
-        const response = await fetch('/get-refresh-date');
+        let route;
+
+        if (window.location.pathname.includes('nfl')) {
+            route = 'get-refresh-date-nfl';
+        }
+        else if (window.location.pathname.includes('ncaaf')) {
+            route = 'get-refresh-date-ncaaf';
+        }
+        const response = await fetch(`/${route}`);
         console.log('Response received:', response);
 
         if (!response.ok) {
@@ -41,15 +57,15 @@ async function fetchLastRefreshDate() {
             
             const currentPath = window.location.pathname;
             console.log(currentPath);
-            if (currentPath == '/') {
+            if (currentPath == '/nflh2h') {
                 const refreshElement = document.getElementById('lastRefresh');
                 refreshElement.textContent = `Last Refreshed: ${formattedDate}`;
             }
-            else if (currentPath == '/spread') {
+            else if (currentPath == '/nflspread') {
                 const refreshElement = document.getElementById('lastRefresh');
                 refreshElement.textContent = `Last Refreshed: ${formattedDate}`;
             }
-            else if (currentPath == '/total') {
+            else if (currentPath == '/nfltotal') {
                 const refreshElement = document.getElementById('lastRefresh');
                 refreshElement.textContent = `Last Refreshed: ${formattedDate}`;
             }

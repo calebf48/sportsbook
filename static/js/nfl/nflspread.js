@@ -1,7 +1,7 @@
 // Function to fetch JSON data from a file
 async function fetchJsonData() {
     try {
-        const response = await fetch('static/data/response_ncaafspread.json'); // Fetch the JSON file
+        const response = await fetch('static/data/nfl/response_nflspread.json'); // Fetch the JSON file
         if (!response.ok) {
             throw new Error('Failed to load JSON data');
         }

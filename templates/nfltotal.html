@@ -2,21 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial="width=device-width, initial-scale=1.0>
-    <title>NFL Spreads</title>
+    <meta name="viewport" content="width=device-width, initial="width=device-width, initial-scale=1.0">
+    <title>NFL Over/Unders</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css')}}"> <!-- Link to external stylesheet -->
 </head>
 <body>
-    <h1>NFL Spreads</h1>
+    <h1>NFL Over/Unders</h1>
     <div id="navbar">
         <select onchange="window.location.href=this.value;">
-            <option value="{{ url_for('index')}}">NFL</option>
+            <option value="{{ url_for('nflh2h')}}">NFL</option>
             <option value="{{ url_for('ncaafh2h')}}">CFB</option>
         </select>
         <select onchange = "window.location.href=this.value;">
-            <option value="{{ url_for('spread')}}">Spread</option>
-            <option value="{{ url_for('index')}}">Money Line</option>
-            <option value="{{ url_for('total')}}">Over/Under</option>
+            <option value="{{ url_for('nfltotal')}}">Over/Under</option>
+            <option value="{{ url_for('nflh2h')}}">Money Line</option>
+            <option value="{{ url_for('nflspread')}}">Spread</option>
         </select>
         <button id="refreshButton">Refresh Data</button>
         <p id="output"></p>
@@ -35,6 +35,6 @@
         </tbody>
     </table>
     <script src = "{{ url_for('static', filename='js/refresh.js')}}"></script>
-    <script src = "{{ url_for('static', filename='js/spread.js')}}"></script>
+    <script src = "{{ url_for('static', filename='js/nfl/nfltotal.js')}}"></script>
 </body>
 </html>
