@@ -16,14 +16,16 @@
             </ul>
         </div>
         <h1>NFL Money Line Odds</h1>
-        <select onchange = "window.location.href=this.value;">
-            <option value="{{ url_for('nflh2h')}}">Money Line</option>
-            <option value="{{ url_for('nflspread')}}">Spread</option>
-            <option value="{{ url_for('nfltotal')}}">Over/Under</option>
-        </select>
-        <button id="refreshButton">Refresh Data</button>
-        <p id="output"></p>
-        <p id="lastRefresh">Last Refreshed: Loading...</p>
+        <div id="navbar">
+            <select onchange = "window.location.href=this.value;">
+                <option value="{{ url_for('nflh2h')}}">Money Line</option>
+                <option value="{{ url_for('nflspread')}}">Spread</option>
+                <option value="{{ url_for('nfltotal')}}">Over/Under</option>
+            </select>
+            <button id="refreshButton">Refresh Data</button>
+            <p id="output"></p>
+            <p id="lastRefresh">Last Refreshed: Loading...</p>
+        </div>
     <table id="oddsTable">
         <thead>
             <tr>

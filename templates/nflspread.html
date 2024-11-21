@@ -7,12 +7,16 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css')}}"> <!-- Link to external stylesheet -->
 </head>
 <body>
+    <div>
+        <ul class="navbar">
+            <li class="navbar-sport"><a class="sport-link" href="{{ url_for('index')}}">Home</a></li>
+            <li class="navbar-sport"><a class="sport-link sport-active" href="{{ url_for('nflh2h')}}">NFL</a></li>
+            <li class="navbar-sport"><a class="sport-link" href="{{ url_for('ncaafh2h')}}">CFB</a></li>
+            <li style="float:right"><a class="sport-link">Profile</a></li>
+        </ul>
+    </div>
     <h1>NFL Spreads</h1>
     <div id="navbar">
-        <select onchange="window.location.href=this.value;">
-            <option value="{{ url_for('nflh2h')}}">NFL</option>
-            <option value="{{ url_for('ncaafh2h')}}">CFB</option>
-        </select>
         <select onchange = "window.location.href=this.value;">
             <option value="{{ url_for('nflspread')}}">Spread</option>
             <option value="{{ url_for('nflh2h')}}">Money Line</option>
